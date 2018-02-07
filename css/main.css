@@ -1,0 +1,376 @@
+* {
+ 	    box-sizing: border-box;
+ 	}
+
+
+ 	body {
+ 	    /**/
+		background-color: #333;
+ 	    margin: 0 0 0 0;
+ 		padding:0;
+ 	}
+
+ 	.nav-main {
+ 	    list-style-type: none;
+ 	    margin: auto;
+ 	    padding: 0;
+		position:fixed;
+ 	    background-color: #333;
+ 	    font-family: 'Rammetto One', cursive;
+ 	    width:100%;
+ 	    height: 50px;
+ 	}
+
+ 	img {
+ 	    margin: auto 10px;
+ 	}
+
+ 	header p {
+ 	    font-family: 'Monoton', cursive;
+ 	    display: block;
+ 	    color: lightGreen;
+ 	    padding-left: 0px;
+ 	    font-size: 30px
+ 	}
+
+
+ 	nav ul {
+ 	    align-content: center;
+ 	    margin: auto 0;
+ 	}
+
+ 	nav li,
+ 	nav a {
+ 	    display: inline;
+ 	    padding-right: 18px;
+ 	    text-decoration: none;
+ 	    color: white;
+ 	    font-size: 20px;
+ 	}
+
+ 	nav a:hover {
+ 	    color: green;
+ 	}
+
+
+
+
+ 	.nav-main {
+
+ 	    display: flex;
+ 	    justify-content: : flex-end;
+ 	}
+
+ 	.one {
+ 	    flex: 1;
+ 	    margin: auto auto;
+ 	}
+
+ 	.two {
+ 	    flex: 1;
+ 	    display: flex;
+ 	    justify-content: flex-end;
+ 	}
+
+ 	.hero-image {
+		
+ 	  
+ 	    background-image: url("../img/gg.jpg");
+ 	    height: 550px;
+
+ 	    display: flex;
+ 	    background-size: cover;
+ 	}
+
+
+ 	.main1 {
+ 	    display: flex;
+ 	    flex: 1;
+ 	}
+
+ 	.main1 p,
+ 	.main2 p {
+ 	    padding: 40px 120px 40px 120px;
+ 	    font-size: 20px;
+ 	    font-family: 'Catamaran', sans-serif;
+ 	    color: white;
+ 	}
+
+ 	.main2 {
+ 	    display: flex;
+ 	    flex: 1;
+ 	}
+
+ 	.sec-main {
+ 	    display: flex;
+ 	    flex-wrap: wrap;
+ 	}
+
+ 	.sec1 {
+ 	    background-image: url("../img/MIUI.jpg");
+ 	}
+
+
+
+ 	.sec2 {
+ 	    flex: 1;
+ 	    background-image: url("../img/linkageos.jpg");
+ 	}
+
+ 	.sec3 {
+ 	    background-image: url("../img/paranoid.jpg");
+ 	}
+
+ 	.sec11 {
+ 	    background-image: url("../img/BlissPop.jpg");
+ 	    flex-direction: column;
+ 	}
+
+ 	.sec22 {
+ 	    background-image: url("../img/Cataclysm-.jpg");
+ 	}
+
+ 	.sec33 {
+ 	    background-image: url("../img/Dirty.jpg");
+ 	}
+
+ 	.sec111 {
+ 	    background-image: url("../img/Euphoria.jpg");
+ 	}
+
+ 	.sec222 {
+ 	    background-image: url("../img/Ressurrection.jpg");
+ 	}
+
+ 	.sec333 {
+ 	    background-image: url("../img/XenonHD.jpg");
+ 	}
+
+ 	.sec1,
+ 	.sec2,
+ 	.sec3,
+ 	.sec11,
+ 	.sec22,
+ 	.sec33,
+ 	.sec111,
+ 	.sec222,
+ 	.sec333 {
+ 	    flex: 1;
+ 	    opacity: 1;
+ 	    transition: .5s ease;
+ 	    height: 250px;
+ 	    margin: 20px 8px 8px 20px;
+ 	    box-shadow: 0 0 10px 4px green;
+ 	    background-size: cover;
+ 	    background-repeat: no-repeat;
+ 	}
+
+
+
+
+
+
+ 	.info {
+
+ 	    text-align: center;
+ 	    opacity: 0;
+ 	    padding-top: 60px;
+ 	    font-size: 40px;
+ 	}
+
+ 	.sec1:hover .info {
+ 	    opacity: 1;
+ 	    font-family: 'Rammetto One', cursive;
+ 	    font-size: 32px;
+ 	    background-color: black;
+ 	    color: Green;
+ 	}
+
+ 	.sec2:hover .info {
+ 	    opacity: 1;
+ 	    font-family: 'Rammetto One', cursive;
+ 	    background-color: black;
+ 	    font-size: 32px;
+ 	    color: Green;
+ 	}
+
+ 	.sec3:hover .info {
+ 	    opacity: 1;
+ 	    font-family: 'Rammetto One', cursive;
+ 	    background-color: black;
+ 	    font-size: 32px;
+ 	    color: Green;
+ 	}
+
+ 	.sec11:hover .info {
+ 	    opacity: 1;
+ 	    font-family: 'Rammetto One', cursive;
+ 	    background-color: black;
+ 	    font-size: 32px;
+ 	    color: Green;
+ 	}
+
+ 	.sec22:hover .info {
+ 	    opacity: 1;
+ 	    font-family: 'Rammetto One', cursive;
+ 	    background-color: black;
+ 	    font-size: 32px;
+ 	    color: Green;
+ 	}
+
+ 	.sec33:hover .info {
+ 	    opacity: 1;
+ 	    font-family: 'Rammetto One', cursive;
+ 	    background-color: black;
+ 	    font-size: 32px;
+ 	    color: Green;
+ 	}
+
+ 	.sec111:hover .info {
+ 	    opacity: 1;
+ 	    font-family: 'Rammetto One', cursive;
+ 	    background-color: black;
+ 	    font-size: 32px;
+ 	    color: Green;
+ 	}
+
+ 	.sec222:hover .info {
+ 	    opacity: 1;
+ 	   font-family: 'Rammetto One', cursive;
+ 	    background-color: black;
+ 	    font-size: 32px;
+ 	    color: Green;
+ 	}
+
+ 	.sec333:hover .info {
+ 	    opacity: 1;
+ 	    font-family: 'Rammetto One', cursive; 	    background-color: black;
+ 	    color: Green;
+ 	    font-size: 32px;
+ 	}
+
+ 	.last{
+ 		 font-family: 'Catamaran', sans-serif;
+ 		 padding :30px 30px 30px 30px;
+ 		  
+
+ 	}
+
+ 	footer{
+ 		background-color: lightgrey;
+ 		height:600px;
+ 		
+
+
+ 	}
+	
+	a{
+		text-decoration: none;
+		color: green;
+	}
+
+
+
+
+span {
+    font-size: 20px;
+    color: white;
+    font-family: 'Rammetto One', cursive;
+    color:green;
+}
+
+.note p {
+    font-family: 'Catamaran', sans-serif;
+    box-shadow: 3px;
+    background-color: red;
+    margin: 0 0 0 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.f-main{
+	font-family: 'Catamaran', sans-serif;
+	display:flex;
+	padding:0 0 0 0;
+	background-color: lightGrey;
+	margin: 30px 30px 30px 30px;
+}
+
+.e{
+flex:1;
+
+
+}
+
+.f{
+	
+	flex:1;
+	display:flex;
+	
+	flex-direction: column;
+}
+
+.f1{
+	
+	flex:1;
+	margin:auto;
+}
+
+.f2{
+	
+		flex:1;
+		margin:auto;
+}
+
+.f3{
+	flex:1;
+	margin:auto;
+}
+
+.e img{
+border-radius: 50%;
+
+}
+
+.e{
+	margin:auto auto;
+	padding:10px 10px 10px 10px ;
+}
+
+h1,h2,h3,h4{
+	 font-family: 'Rammetto One', cursive;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 300px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 300px;
+}
+
+.copy{
+	background-color: Green;
+	font-family: 'Rammetto One', cursive;
+
+}

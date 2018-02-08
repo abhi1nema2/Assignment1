@@ -8,9 +8,23 @@
 		background-color: #333;
  	    margin: 0 0 0 0;
  		padding:0;
+ 		min-width: 400px;
  	}
+	
+	h5{
+		background-image: url(../img/logo.png) no-repeat;
 
- 	.nav-main {
+		width: 50px;
+		height: 50px;
+		text-indent: -9999px;
+	}
+
+
+	h4{
+		text-indent: -9999px
+	}
+	
+ 	header{
  	    list-style-type: none;
  	    margin: auto;
  	    padding: 0;
@@ -18,12 +32,10 @@
  	    background-color: #333;
  	    font-family: 'Rammetto One', cursive;
  	    width:100%;
- 	    height: 50px;
+ 	   	height: 100px
  	}
 
- 	img {
- 	    margin: auto 10px;
- 	}
+ 	
 
  	header p {
  	    font-family: 'Monoton', cursive;
@@ -76,8 +88,8 @@
 		
  	  
  	    background-image: url("../img/gg.jpg");
- 	    height: 550px;
-
+ 	    height: 500px;
+		padding-top: 100px;
  	    display: flex;
  	    background-size: cover;
  	}
@@ -179,74 +191,93 @@
  	}
 
  	.sec1:hover .info {
- 	    opacity: 1;
- 	    font-family: 'Rammetto One', cursive;
- 	    font-size: 32px;
- 	    background-color: black;
- 	    color: Green;
- 	}
+    opacity: 1;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
+}
 
  	.sec2:hover .info {
- 	    opacity: 1;
- 	    font-family: 'Rammetto One', cursive;
- 	    background-color: black;
- 	    font-size: 32px;
- 	    color: Green;
+ 	   opacity: 1;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
  	}
 
  	.sec3:hover .info {
  	    opacity: 1;
- 	    font-family: 'Rammetto One', cursive;
- 	    background-color: black;
- 	    font-size: 32px;
- 	    color: Green;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
  	}
 
  	.sec11:hover .info {
  	    opacity: 1;
- 	    font-family: 'Rammetto One', cursive;
- 	    background-color: black;
- 	    font-size: 32px;
- 	    color: Green;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
  	}
 
  	.sec22:hover .info {
- 	    opacity: 1;
- 	    font-family: 'Rammetto One', cursive;
- 	    background-color: black;
- 	    font-size: 32px;
- 	    color: Green;
+ 	   opacity: 1;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
  	}
 
  	.sec33:hover .info {
- 	    opacity: 1;
- 	    font-family: 'Rammetto One', cursive;
- 	    background-color: black;
- 	    font-size: 32px;
- 	    color: Green;
+ 	 opacity: 1;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
  	}
 
  	.sec111:hover .info {
- 	    opacity: 1;
- 	    font-family: 'Rammetto One', cursive;
- 	    background-color: black;
- 	    font-size: 32px;
- 	    color: Green;
+ 	  opacity: 1;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
  	}
 
  	.sec222:hover .info {
  	    opacity: 1;
- 	   font-family: 'Rammetto One', cursive;
- 	    background-color: black;
- 	    font-size: 32px;
- 	    color: Green;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
  	}
 
  	.sec333:hover .info {
  	    opacity: 1;
- 	    font-family: 'Rammetto One', cursive; 	    background-color: black;
- 	    color: Green;
- 	    font-size: 32px;
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    padding-top: 0;
+    padding-bottom: 50px;
+    color: green;
  	}
 
  	.last{
